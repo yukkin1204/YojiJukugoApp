@@ -14,6 +14,7 @@
 		8421F3BC24BDF6AB000A0ED0 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421F3BB24BDF6AB000A0ED0 /* ListViewController.swift */; };
 		8421F3BE24BDF6C5000A0ED0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421F3BD24BDF6C5000A0ED0 /* DetailViewController.swift */; };
 		8421F3C024C47A4A000A0ED0 /* Yojijukugo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421F3BF24C47A4A000A0ED0 /* Yojijukugo.swift */; };
+		8421F3C224C47E83000A0ED0 /* JukugoData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8421F3C124C47E83000A0ED0 /* JukugoData.plist */; };
 		84D7045B24BDDF0A000381A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7045A24BDDF0A000381A1 /* AppDelegate.swift */; };
 		84D7045D24BDDF0A000381A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7045C24BDDF0A000381A1 /* SceneDelegate.swift */; };
 		84D7045F24BDDF0A000381A1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7045E24BDDF0A000381A1 /* MainViewController.swift */; };
@@ -30,6 +31,7 @@
 		8421F3BB24BDF6AB000A0ED0 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		8421F3BD24BDF6C5000A0ED0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8421F3BF24C47A4A000A0ED0 /* Yojijukugo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yojijukugo.swift; sourceTree = "<group>"; };
+		8421F3C124C47E83000A0ED0 /* JukugoData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = JukugoData.plist; sourceTree = "<group>"; };
 		84D7045724BDDF0A000381A1 /* YojiJukugo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YojiJukugo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D7045A24BDDF0A000381A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D7045C24BDDF0A000381A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,8 +84,9 @@
 				8421F3BB24BDF6AB000A0ED0 /* ListViewController.swift */,
 				8421F3BD24BDF6C5000A0ED0 /* DetailViewController.swift */,
 				8421F3BF24C47A4A000A0ED0 /* Yojijukugo.swift */,
-				84D7046824BDDF0B000381A1 /* Info.plist */,
+				8421F3C124C47E83000A0ED0 /* JukugoData.plist */,
 				84D7046324BDDF0B000381A1 /* Assets.xcassets */,
+				84D7046824BDDF0B000381A1 /* Info.plist */,
 			);
 			path = YojiJukugo;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				8421F3B424BDE392000A0ED0 /* Game.storyboard in Resources */,
 				84D7046724BDDF0B000381A1 /* LaunchScreen.storyboard in Resources */,
 				84D7046424BDDF0B000381A1 /* Assets.xcassets in Resources */,
+				8421F3C224C47E83000A0ED0 /* JukugoData.plist in Resources */,
 				84D7046224BDDF0A000381A1 /* Main.storyboard in Resources */,
 				8421F3BA24BDF5E5000A0ED0 /* Study.storyboard in Resources */,
 			);

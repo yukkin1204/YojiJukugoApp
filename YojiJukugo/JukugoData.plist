@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>character</key>
+		<string>異口同音</string>
+		<key>reading</key>
+		<string>いくどうおん</string>
+		<key>meaning</key>
+		<string>多勢の人がそれぞれ同じ意味のことを言うこと</string>
+	</dict>
+	<dict>
+		<key>character</key>
+		<string>一日千秋</string>
+		<key>reading</key>
+		<string>いちじつせんしゅう</string>
+		<key>meaning</key>
+		<string>待ち望んでいる気持ちのこと</string>
+	</dict>
+    <dict>
+        <key>character</key>
+        <string>傍目八目</string>
+        <key>reading</key>
+        <string>おかめはちもく</string>
+        <key>meaning</key>
+        <string>第三者は正しく状況を判断しやすいこと</string>
+    </dict>
+</array>
+</plist>
