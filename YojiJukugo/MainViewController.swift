@@ -4,6 +4,10 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let backBarButtonItem = UIBarButtonItem()
+        backBarButtonItem.title = "Top"
+        self.navigationItem.backBarButtonItem = backBarButtonItem
     }
 
     @IBAction func touchGameButton(_ sender: Any) {

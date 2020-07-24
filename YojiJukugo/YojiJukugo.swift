@@ -1,6 +1,6 @@
 import UIKit
 
-class Yojijukugo{
+class YojiJukugo{
     let character: String
     let reading: String
     let meaning: String
