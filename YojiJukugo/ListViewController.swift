@@ -1,6 +1,6 @@
 import UIKit
 
-class ListViewController: UIViewController, UITableViewDataSource, UISearchBarDelegate {
+class ListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
 
     @IBOutlet weak var jukugoTableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
@@ -10,6 +10,8 @@ class ListViewController: UIViewController, UITableViewDataSource, UISearchBarDe
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        jukugoTableView.delegate = self
         
         searchBar.delegate = self
         searchBar.enablesReturnKeyAutomatically = false
@@ -25,10 +27,6 @@ class ListViewController: UIViewController, UITableViewDataSource, UISearchBarDe
         }
         
         displayArray = jukugoArray
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
     }
     
     @IBAction func touchDetailButton(_ sender: Any) {
@@ -57,5 +55,14 @@ class ListViewController: UIViewController, UITableViewDataSource, UISearchBarDe
         }
         jukugoTableView.reloadData()
         searchBar.endEditing(true)
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = self.storyboard!
+        let nextView = storyboard.instantiateViewController(withIdentifier: "DetailView") as! DetailViewController
+        nextView.character = displayArray[indexPath.row].character
+        nextView.reading = displayArray[indexPath.row].reading
+        nextView.meaning = displayArray[indexPath.row].meaning
+        self.navigationController?.pushViewController(nextView, animated: true)
     }
 }
