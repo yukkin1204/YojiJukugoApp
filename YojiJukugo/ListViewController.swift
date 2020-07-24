@@ -28,7 +28,9 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! JukugoCell
+        cell.characterLabel.text = jukugoArray[indexPath.row].character
+        cell.readingLabel.text = jukugoArray[indexPath.row].reading
         return cell
     }
 }
