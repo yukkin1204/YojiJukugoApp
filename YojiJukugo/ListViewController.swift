@@ -4,9 +4,11 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     @IBOutlet weak var jukugoTableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
     
     var displayArray: [YojiJukugo] = []
     var jukugoArray:[YojiJukugo] = []
+    var searchType = "部分一致"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +17,6 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         searchBar.delegate = self
         searchBar.enablesReturnKeyAutomatically = false
-        searchBar.placeholder = "四字熟語を入力してください"
         
         let filepath = Bundle.main.path(forResource: "JukugoData", ofType:"plist" )
         let plist = NSArray(contentsOfFile: filepath!) as! [NSDictionary]
@@ -29,12 +30,6 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         displayArray = jukugoArray
     }
     
-    @IBAction func touchDetailButton(_ sender: Any) {
-        let storyboard = self.storyboard!
-        let nextView = storyboard.instantiateViewController(withIdentifier: "DetailView")
-        self.navigationController?.pushViewController(nextView, animated: true)
-    }
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return displayArray.count
     }
@@ -46,12 +41,25 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         return cell
     }
     
+    @IBAction func segumentChanged(_ sender: Any) {
+        let selectedIndex = segmentedControl.selectedSegmentIndex
+        searchType = segmentedControl.titleForSegment(at: selectedIndex)!
+        print(searchType)
+    }
+    
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         let searchText = searchBar.text!
         if(searchText.isEmpty) {
             displayArray = jukugoArray
         } else {
-            displayArray = jukugoArray.filter{$0.character.contains(searchText) || $0.reading.contains(searchText)}
+            switch searchType{
+            case "前方一致":
+                displayArray = jukugoArray.filter{$0.character.hasPrefix(searchText) || $0.reading.hasPrefix(searchText)}
+            case "後方一致":
+                displayArray = jukugoArray.filter{$0.character.hasSuffix(searchText) || $0.reading.hasSuffix(searchText)}
+            default:
+                displayArray = jukugoArray.filter{$0.character.contains(searchText) || $0.reading.contains(searchText)}
+            }
         }
         jukugoTableView.reloadData()
         searchBar.endEditing(true)

@@ -23,7 +23,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ur0-1I-KZa">
-                                <rect key="frame" x="20" y="155" width="374" height="707"/>
+                                <rect key="frame" x="20" y="202" width="374" height="660"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="G7W-Az-M9M" customClass="JukugoCell" customModule="YojiJukugo" customModuleProvider="target">
@@ -60,15 +60,29 @@
                                     <outlet property="delegate" destination="PYu-TW-4ke" id="QlI-Aq-EnP"/>
                                 </connections>
                             </tableView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tKY-1f-96i">
+                                <rect key="frame" x="116" y="153" width="278" height="32"/>
+                                <segments>
+                                    <segment title="部分一致"/>
+                                    <segment title="前方一致"/>
+                                    <segment title="後方一致"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segumentChanged:" destination="PYu-TW-4ke" eventType="valueChanged" id="mmX-FG-QVU"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="vg3-Z9-5dg" secondAttribute="trailing" id="6fl-ZY-YKY"/>
+                            <constraint firstItem="tKY-1f-96i" firstAttribute="top" secondItem="vg3-Z9-5dg" secondAttribute="bottom" constant="12" id="7wN-sT-C4a"/>
                             <constraint firstItem="ur0-1I-KZa" firstAttribute="trailing" secondItem="PAP-wb-2w9" secondAttribute="trailingMargin" id="LC9-lu-6X7"/>
                             <constraint firstItem="ur0-1I-KZa" firstAttribute="leading" secondItem="PAP-wb-2w9" secondAttribute="leadingMargin" id="N84-67-MLW"/>
+                            <constraint firstItem="ur0-1I-KZa" firstAttribute="top" secondItem="tKY-1f-96i" secondAttribute="bottom" constant="18" id="NOg-Ye-yXi"/>
                             <constraint firstItem="vg3-Z9-5dg" firstAttribute="leading" secondItem="PAP-wb-2w9" secondAttribute="leading" id="QWh-EW-P0h"/>
+                            <constraint firstItem="tKY-1f-96i" firstAttribute="leading" secondItem="cDH-fV-ERV" secondAttribute="leading" constant="116" id="SYG-s6-eHz"/>
                             <constraint firstItem="ur0-1I-KZa" firstAttribute="bottom" secondItem="PAP-wb-2w9" secondAttribute="bottomMargin" id="a4b-ve-WtG"/>
-                            <constraint firstItem="ur0-1I-KZa" firstAttribute="top" secondItem="vg3-Z9-5dg" secondAttribute="bottom" constant="14" id="lxC-PN-gZq"/>
+                            <constraint firstItem="cDH-fV-ERV" firstAttribute="trailing" secondItem="tKY-1f-96i" secondAttribute="trailing" constant="20" id="ehj-vJ-3jL"/>
                             <constraint firstItem="vg3-Z9-5dg" firstAttribute="top" secondItem="PAP-wb-2w9" secondAttribute="top" constant="97" id="nOA-nr-QR6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cDH-fV-ERV"/>
@@ -76,6 +90,7 @@
                     <connections>
                         <outlet property="jukugoTableView" destination="ur0-1I-KZa" id="fE9-Qs-i27"/>
                         <outlet property="searchBar" destination="vg3-Z9-5dg" id="MKp-t1-Exf"/>
+                        <outlet property="segmentedControl" destination="tKY-1f-96i" id="h29-ka-qse"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zuh-tF-umL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
