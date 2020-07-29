@@ -6,8 +6,8 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     
-    var displayArray: [YojiJukugo] = []
     var jukugoArray:[YojiJukugo] = []
+    var displayArray: [YojiJukugo] = []
     var searchType = "部分一致"
     
     override func viewDidLoad() {

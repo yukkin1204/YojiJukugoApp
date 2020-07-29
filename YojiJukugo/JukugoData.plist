@@ -2,23 +2,197 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<dict>
+	
+    <dict>
+        <key>character</key>
+        <string>合縁奇縁</string>
+        <key>reading</key>
+        <string>あいえんきえん</string>
+        <key>meaning</key>
+        <string>人と人との縁は不思議であること。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>愛別離苦</string>
+        <key>reading</key>
+        <string>あいべつりく</string>
+        <key>meaning</key>
+        <string>愛するものと別れる苦しみのこと。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>曖昧模糊</string>
+        <key>reading</key>
+        <string>あいまいもこ</string>
+        <key>meaning</key>
+        <string>はっきりせず不明瞭な様子。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>青息吐息</string>
+        <key>reading</key>
+        <string>あおいきといき</string>
+        <key>meaning</key>
+        <string>苦しい時に発する元気のないため息のこと。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>悪口雑言</string>
+        <key>reading</key>
+        <string>あっこうぞうごん</string>
+        <key>meaning</key>
+        <string>さんざん罵ること。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>暗中模索</string>
+        <key>reading</key>
+        <string>あんちゅうもさく</string>
+        <key>meaning</key>
+        <string>手がかりがないまま、あれこれ試してみること。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>安分守己</string>
+        <key>reading</key>
+        <string>あんぶんしゅき</string>
+        <key>meaning</key>
+        <string>自分の身の程をわきまえて生き、高望みしないこと。</string>
+    </dict>
+    
+    <dict>
 		<key>character</key>
 		<string>異口同音</string>
 		<key>reading</key>
 		<string>いくどうおん</string>
 		<key>meaning</key>
-		<string>大勢の人がそれぞれ同じ意味のことを言うこと。</string>
+		<string>みんなの意見が一致すること。多くの人が同じことを言うこと。</string>
 	</dict>
-	<dict>
+	
+    <dict>
+        <key>character</key>
+        <string>為虎添翼</string>
+        <key>reading</key>
+        <string>いこてんよく</string>
+        <key>meaning</key>
+        <string>強いものがさらに強くなること。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>以心伝心</string>
+        <key>reading</key>
+        <string>いしんでんしん</string>
+        <key>meaning</key>
+        <string>言葉や文字で伝えなくとも、お互いに気持ちが通じ合っていること。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>一言居士</string>
+        <key>reading</key>
+        <string>いちげんこじ</string>
+        <key>meaning</key>
+        <string>何事にも必ずなにか一言口出しせねば気が済まない人のこと。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>一期一会</string>
+        <key>reading</key>
+        <string>いちごいちえ</string>
+        <key>meaning</key>
+        <string>一生に一度の出会いであると考え、誠意を尽くす心構え。</string>
+    </dict>
+    
+    <dict>
 		<key>character</key>
 		<string>一日千秋</string>
 		<key>reading</key>
 		<string>いちじつせんしゅう</string>
 		<key>meaning</key>
-		<string>待ち望んでいる気持ちのこと。</string>
+		<string>とても待ち遠しいこと。</string>
 	</dict>
-	<dict>
+	
+    <dict>
+        <key>character</key>
+        <string>一念発起</string>
+        <key>reading</key>
+        <string>いちねんほっき</string>
+        <key>meaning</key>
+        <string>何かを成し遂げようと決意すること。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>一蓮托生</string>
+        <key>reading</key>
+        <string>いちれんたくしょう</string>
+        <key>meaning</key>
+        <string>仲間として運命や行動をともにすること。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>一騎当千</string>
+        <key>reading</key>
+        <string>いっきとうせん</string>
+        <key>meaning</key>
+        <string>人並み外れた能力や経験のあること</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>一刻千金</string>
+        <key>reading</key>
+        <string>いっこくせんきん</string>
+        <key>meaning</key>
+        <string>楽しい時間は過ぎ去りやすいこと。わずかな時間が大切なこと。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>一心不乱</string>
+        <key>reading</key>
+        <string>いっしんふらん</string>
+        <key>meaning</key>
+        <string>一つのことに集中している様子。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>一斉風靡</string>
+        <key>reading</key>
+        <string>いっせいふうび</string>
+        <key>meaning</key>
+        <string>ある時代に非常に流行すること。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>意味深長</string>
+        <key>reading</key>
+        <string>いみしんちょう</string>
+        <key>meaning</key>
+        <string>表現に非常に深い意味があり、趣がある様子。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>雨奇晴好</string>
+        <key>reading</key>
+        <string>うきせいこう</string>
+        <key>meaning</key>
+        <string>雨でも晴れでも景色が良いこと。</string>
+    </dict>
+    
+    <dict>
 		<key>character</key>
 		<string>傍目八目</string>
 		<key>reading</key>
@@ -26,5 +200,6 @@
 		<key>meaning</key>
 		<string>第三者は正しく状況を判断しやすいこと。</string>
 	</dict>
+    
 </array>
 </plist>
