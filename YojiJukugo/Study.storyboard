@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--リスト画面-->
+        <!--リスト-->
         <scene sceneID="XNs-XB-7TP">
             <objects>
-                <viewController storyboardIdentifier="ListView" title="リスト画面" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PYu-TW-4ke" customClass="ListViewController" customModule="YojiJukugo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ListView" title="リスト" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PYu-TW-4ke" customClass="ListViewController" customModule="YojiJukugo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PAP-wb-2w9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -97,10 +97,10 @@
             </objects>
             <point key="canvasLocation" x="-314.49275362318843" y="73.660714285714278"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--詳細-->
         <scene sceneID="g9h-Rb-FgA">
             <objects>
-                <viewController storyboardIdentifier="DetailView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BAA-RU-zsQ" customClass="DetailViewController" customModule="YojiJukugo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailView" title="詳細" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BAA-RU-zsQ" customClass="DetailViewController" customModule="YojiJukugo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kdb-6j-5S3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

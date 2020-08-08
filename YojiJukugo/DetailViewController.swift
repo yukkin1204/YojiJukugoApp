@@ -16,8 +16,4 @@ class DetailViewController: UIViewController {
         readingLabel.text = reading
         meaningField.text = meaning
     }
-    
-    @IBAction func touchTopButton(_ sender: Any) {
-        self.navigationController?.popToRootViewController(animated: true)
-    }
 }

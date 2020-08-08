@@ -12,7 +12,7 @@ class MainViewController: UIViewController {
 
     @IBAction func touchGameButton(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Game", bundle: nil)
-        let nextView = storyboard.instantiateViewController(withIdentifier: "QuizView")
+        let nextView = storyboard.instantiateViewController(withIdentifier: "RuleView")
         self.navigationController?.pushViewController(nextView, animated: true)
     }
     
