@@ -77,6 +77,15 @@
 	
     <dict>
         <key>character</key>
+        <string>異国情緒</string>
+        <key>reading</key>
+        <string>いこくじょうちょ</string>
+        <key>meaning</key>
+        <string>自分の国とは違う雰囲気や趣のこと。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
         <string>為虎添翼</string>
         <key>reading</key>
         <string>いこてんよく</string>
@@ -86,11 +95,29 @@
     
     <dict>
         <key>character</key>
+        <string>石部金吉</string>
+        <key>reading</key>
+        <string>いしべきんきち</string>
+        <key>meaning</key>
+        <string>物堅く、融通がきかない人のこと。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
         <string>以心伝心</string>
         <key>reading</key>
         <string>いしんでんしん</string>
         <key>meaning</key>
         <string>言葉や文字で伝えなくとも、お互いに気持ちが通じ合っていること。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>一意専心</string>
+        <key>reading</key>
+        <string>いちいせんしん</string>
+        <key>meaning</key>
+        <string>ひたすら一つのことに集中すること。</string>
     </dict>
     
     <dict>
@@ -127,6 +154,15 @@
         <string>いちねんほっき</string>
         <key>meaning</key>
         <string>何かを成し遂げようと決意すること。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>一望千里</string>
+        <key>reading</key>
+        <string>いちぼうせんり</string>
+        <key>meaning</key>
+        <string>広大な眺めを一目で見渡せること。</string>
     </dict>
     
     <dict>
@@ -185,11 +221,74 @@
     
     <dict>
         <key>character</key>
+        <string>右往左往</string>
+        <key>reading</key>
+        <string>うおうさおう</string>
+        <key>meaning</key>
+        <string>混乱し、行ったり来たりする様子。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
         <string>雨奇晴好</string>
         <key>reading</key>
         <string>うきせいこう</string>
         <key>meaning</key>
         <string>雨でも晴れでも景色が良いこと。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>海千山千</string>
+        <key>reading</key>
+        <string>うみせんやません</string>
+        <key>meaning</key>
+        <string>経験が豊富で抜け目がないこと。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>雲外蒼天</string>
+        <key>reading</key>
+        <string>うんがいそうてん</string>
+        <key>meaning</key>
+        <string>困難を乗り越え、努力し克服すればよいことが待っているということ。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>雲散霧散</string>
+        <key>reading</key>
+        <string>うんさんむしょう</string>
+        <key>meaning</key>
+        <string>あとかたもなく消えてしまうこと。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>雲蒸竜変</string>
+        <key>reading</key>
+        <string>うんじょうりゅうへん</string>
+        <key>meaning</key>
+        <string>優れた人物が時流に乗じて大活躍すること。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>雲中白鶴</string>
+        <key>reading</key>
+        <string>うんちゅうはっかく</string>
+        <key>meaning</key>
+        <string>心が清らかで気高く立派な人。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>栄枯盛衰</string>
+        <key>reading</key>
+        <string>えいこせいすい</string>
+        <key>meaning</key>
+        <string>栄えたり衰えたりすること。</string>
     </dict>
     
     <dict>
@@ -200,6 +299,24 @@
 		<key>meaning</key>
 		<string>第三者は正しく状況を判断しやすいこと。</string>
 	</dict>
+    
+    <dict>
+        <key>character</key>
+        <string>温厚篤実</string>
+        <key>reading</key>
+        <string>おんこうとくじつ</string>
+        <key>meaning</key>
+        <string>情が厚く、穏やかで優しく、誠実な人物のこと。</string>
+    </dict>
+    
+    <dict>
+        <key>character</key>
+        <string>温故知新</string>
+        <key>reading</key>
+        <string>おんこちしん</string>
+        <key>meaning</key>
+        <string>古いものを研究し、新しい知識や見解を得ること。</string>
+    </dict>
     
 </array>
 </plist>
